@@ -1,1 +1,33 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 50vh;
+  background: linear-gradient(to right, #4f2d62, #ac39ea);
+}
+.container nav {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Roboto" serif;
+}
+.container nav ul {
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.container nav ul li {
+  display: inline;
+  list-style: none;
+  margin-left: 30px;
+}
+.container nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: #211f22;
+}/*# sourceMappingURL=style.css.map */

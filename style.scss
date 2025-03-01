@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "./partials/resets";
+@import "./partials/variables";
+@import "./partials/nav";
+@import "./partials/header";
+@import "./partials/about";
+@import "./partials/projects";
+@import "./partials/reviews";
+
+
+body {
+    background-color: #211f22;
+}
