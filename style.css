@@ -90,6 +90,31 @@ header h1 {
   transform: translateY(-50px);
 }
 
+.about {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-family: "Roboto" serif;
+  margin-top: 1rem;
+  padding: 3rem 5rem;
+}
+.about p {
+  line-height: 1.7;
+  color: #e8d4ef;
+  width: 400px;
+}
+.about p span {
+  padding: 5px;
+  background: linear-gradient(to left, #35d08f, #e32e64);
+  border-radius: 100px;
+}
+.about .two {
+  align-self: flex-end;
+}
+
 body {
   background-color: #211f22;
 }/*# sourceMappingURL=style.css.map */
