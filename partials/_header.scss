@@ -1,0 +1,64 @@
+.frame-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.gradient {
+    width: 72%;
+    height: 76%;
+    position: absolute;
+    bottom: 74px;
+    background: $gradient;
+    border-radius: 10px;
+}
+
+header {
+    width: 100%;
+    height: 90%;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    background-image: url(/assets/images/portrait.JPG);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    @media screen and (max-width: 700px) {
+        margin-left: 2.5rem;
+    }
+
+    .social {
+        height: 100%;
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        margin-left: 10px;
+        text-align: center;
+
+        .fa-brands {
+            margin-bottom: 10px;
+        }
+
+        .line {
+            margin: 0 auto;
+            width: 4px;
+            border-radius: 10px;
+            height: 20%;
+            background: #ae81bf;
+            margin-bottom: 20px;
+        }
+    }
+
+    h1 {
+        margin-left: 50px;
+        color: #fff;
+        font-size: 5rem;
+        font-family: $main-font;
+        font-weight: normal;
+        transform: translateY(-50px);
+    }
+}
