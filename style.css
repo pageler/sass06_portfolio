@@ -159,6 +159,74 @@ header h1 {
   }
 }
 
+.clients {
+  height: 100vh;
+  margin-top: 15rem;
+}
+.clients h1 {
+  text-align: right;
+  margin-right: 4rem;
+  margin-top: 8rem;
+  color: white;
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  transform: translateY(-50px);
+}
+.clients h1 span {
+  background-color: rgba(174, 129, 191, 0.3921568627);
+}
+.clients section.cards-container {
+  display: flex;
+  justify-content: center;
+}
+.clients section.cards-container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.clients section.cards-container .cards .card {
+  width: 250px;
+  unicode-bidi: isolate;
+  background-color: #2b252e;
+  padding: 40px;
+  color: #fff;
+  line-height: 1.5;
+  margin: 20px;
+  text-align: center;
+}
+.clients section.cards-container .cards .card p {
+  width: 100px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(197, 197, 197);
+}
+.clients section.cards-container .cards .card .user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients section.cards-container .cards .card .user-info .user-img {
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1661349653775-aaee1cc05de4?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 95px 65px;
+}
+.clients section.cards-container .cards .card .user-info .user-img-two {
+  background-image: url(https://images.unsplash.com/photo-1604904612715-47bf9d9bc670?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 100px 75px;
+}
+.clients section.cards-container .cards .card .user-info .user-img-three {
+  background-image: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 100px 75px;
+}
+
 body {
   background-color: #211f22;
 }/*# sourceMappingURL=style.css.map */
