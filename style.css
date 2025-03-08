@@ -227,6 +227,52 @@ header h1 {
   background-position: 100px 75px;
 }
 
+footer {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+footer h1 {
+  font-size: 2rem;
+}
+footer p {
+  max-width: 400px;
+  font-family: "Roboto" serif;
+  line-height: 25px;
+}
+footer .about-company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-container {
+  margin-right: 40px;
+  margin-top: 20px;
+}
+footer .footer-container h1 {
+  margin-bottom: 50px;
+}
+footer .footer-container p {
+  font-family: "Roboto" serif;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1000px) {
+  footer {
+    height: 80vh;
+    margin-top: 20rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  footer {
+    height: 140vh;
+    margin-top: 30rem;
+  }
+}
+
 body {
   background-color: #211f22;
 }/*# sourceMappingURL=style.css.map */
